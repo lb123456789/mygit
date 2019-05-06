@@ -67,12 +67,6 @@ class Ui_MainWindow(object):
         self.labeltext4 = QtWidgets.QLabel(self.formLayoutWidget)
         self.labeltext4.setObjectName("labeltext4")
         self.formLayout.setWidget(3, QtWidgets.QFormLayout.LabelRole, self.labeltext4)
-        self.labeltext4_2 = QtWidgets.QLabel(self.centralwidget)
-        self.labeltext4_2.setGeometry(QtCore.QRect(610, 210, 91, 21))
-        font = QtGui.QFont()
-        font.setPointSize(15)
-        self.labeltext4_2.setFont(font)
-        self.labeltext4_2.setObjectName("labeltext4_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1056, 23))
@@ -97,5 +91,4 @@ class Ui_MainWindow(object):
         self.labeltext2.setText(_translate("MainWindow", "年龄"))
         self.labeltext3.setText(_translate("MainWindow", "工号"))
         self.labeltext4.setText(_translate("MainWindow", "绩效"))
-        self.labeltext4_2.setText(_translate("MainWindow", "保存记录"))
 
