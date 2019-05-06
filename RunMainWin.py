@@ -8,6 +8,30 @@
 # Date:2019/4/27
 # 文件注解
 # -------------------------------------------------------------------------------
+"""
+QLabel控件
+
+setAlignment()：设置文本的对齐方式
+
+setIndent()：设置文本缩进
+
+text()：获取文本内容
+
+setBuddy()：设置伙伴关系
+
+setText()：设置文本内容
+
+selectedText()：返回所选择的字符
+
+setWordWrap()：设置是否允许换行
+
+QLabel常用的信号（事件）：
+1.  当鼠标滑过QLabel控件时触发：linkHovered
+2.  当鼠标单击QLabel控件时触发：linkActivated
+
+"""
+
+
 
 
 import sys
@@ -27,31 +51,38 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         self.setupUi(self)
         self.setWindowTitle("Ui与逻辑分离Demo")
 
-        self.btn_1 = self.pushButton1
-        self.btn_1.setText("修改的按钮")
+        self.btn1 = self.pushButton1
+        self.btn1.setText("修改的按钮")
+        self.btn1.setCheckable(True)  # 设置已经被点击
+        self.btn1.toggle()  # 切换按钮状态
+        self.btn1.clicked.connect(self.btnState)
+        self.btn1.clicked.connect(lambda: self.wichBtn(self.btn1))
 
-        self.btn_1.setCheckable(True)  # 设置已经被点击
+        # 标签文本初始化
+        self.lab1 = self.label1
+        self.lab2 = self.label2
 
-        self.btn_1.toggle()  # 切换按钮状态
-
-        self.btn_1.clicked.connect(self.btnState)
-
-        self.btn_1.clicked.connect(lambda: self.wichBtn(self.btn_1))
+        # 获取文本lineEdit
+        self.LineEdit1 = self.lineEdit1
         print("开始")
+
 
 
     # 鼠标点击事件处理
     def btnState(self):
-
-        if self.btn_1.isChecked():
-            print("Btn_1被单击")
+        if self.btn1.isChecked():
+            print("Btn1被单击")
+            self.lab1.setText("你好，按钮被单击了")
 
         else:
-            print("Btn_1未被单击")
+            print("Btn1未被单击")
+            self.lab1.setText("你好，按钮被单击了1212")
+
     # 鼠标事件
     def wichBtn(self, btn):
+        self.lab2.setText(self.LineEdit1.text())
         print("点击的按钮是：", btn.text())
-
+        print("点击的按钮是：", self.lab2.text())
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
