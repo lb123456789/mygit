@@ -52,7 +52,7 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         self.setWindowTitle("Ui与逻辑分离Demo")
 
         self.btn1 = self.pushButton1
-        self.btn1.setText("修改的按钮")
+        self.btn1.setText("防护已关闭")
         self.btn1.setCheckable(True)  # 设置已经被点击
         self.btn1.toggle()  # 切换按钮状态
         self.btn1.clicked.connect(self.btnState)
@@ -73,10 +73,12 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         if self.btn1.isChecked():
             print("Btn1被单击")
             self.lab1.setText("你好，按钮被单击了")
+            self.btn1.setText("防护已打开")
 
         else:
             print("Btn1未被单击")
             self.lab1.setText("你好，按钮被单击了1212")
+            self.btn1.setText("防护已关闭")
 
     # 鼠标事件
     def wichBtn(self, btn):
