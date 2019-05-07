@@ -30,64 +30,14 @@ QLabel常用的信号（事件）：
 2.  当鼠标单击QLabel控件时触发：linkActivated
 
 """
+
+
 import sys
-import xdrlib ,sys
-import xlrd
-import re
-import xlrd
-import xlrd
 from PyQt5.QtWidgets import  QPushButton,QVBoxLayout,QWidget,QApplication,QMainWindow,QTableWidgetItem,QTableWidget
 from PyQt5.QtGui import QIcon,QPixmap
 from PyQt5.QtCore import *
 
 import mainUi
-
-
-
-worksheet = xlrd.open_workbook('2018.xlsx')
-sheet_names= worksheet.sheet_names()#获取excel中所有工作表名
-sheet2 = worksheet.sheet_by_name('2007测试表')#根据Sheet名获取数据
-sheet2 = worksheet.sheet_by_index(0)#根据索引获取数据，索引为0开始，1表示获取第二张工作表数据
-#获取行数和列数
-nrows = sheet2.nrows - 1
-ncols = sheet2.ncols
-print('行数',nrows)
-print('列数',ncols)
-rows = sheet2.row_values(1)   #表示获取Sheet2中第2行数据
-print('获取Sheet2中第2行数据',rows)
-
-cols10 = sheet2.col_values(2)   #表示获取Sheet2中第3列数据（数据保存为list）
-print('获取Sheet2中第3列数据',cols10)
-
-cell=sheet2.cell(0,1)   #表示获取Sheet2中(0,1)单元格的数据（数据保存为list）
-print('获取Sheet2中(0,1)单元格的数据',cell)
-
-print (sheet2.name,sheet2.nrows,sheet2.ncols)
-#print (sheet2.cell(1,0).value.encode('utf-8'))
-
-print ('ctype=',sheet2.cell(1,0).ctype)
-
-print('获取单元格A1值',sheet2.cell(1,1).value)  #获取单元格A1值，column与row依然可用
-
-for i in range(1,5,1):
-        print(sheet2.cell(i,1).value) #更加方便实用
-        c=sheet2.cell(i,1).value
-        print(c)
-        if c.find('22.3'):
-            print("没有找到所需要的数")
-        else:
-            print("找到所需要的数")
-            A=sheet2.cell(i,0).value
-            print(sheet2.cell(i,0).value)
-            B=sheet2.cell(i,1).value
-            print(sheet2.cell(i,1).value)
-            C=sheet2.cell(i,2).value
-            print(sheet2.cell(i,2).value)
-            D=sheet2.cell(i,3).value
-print(sheet2.cell(i,3).value)
-print("HAHAHAHAHAHAHAHAHA")
-
-
 
 
 # 界面软件逻辑处理 MainCode类又提供了一个容器，这个类继承自QMainWindow,mainUi.Ui_MainWindow，
