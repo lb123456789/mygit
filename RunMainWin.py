@@ -43,12 +43,6 @@ import mainUi
 # 界面软件逻辑处理 MainCode类又提供了一个容器，这个类继承自QMainWindow,mainUi.Ui_MainWindow，
 # 在这个类的构造函数中运行类父类的构造函数， 并且把它自己作为参数产地给setupUi，
 class MainCode(QMainWindow,mainUi.Ui_MainWindow):
-
-
-
-
-
-
     # 本类的初始化方法
     def __init__(self):
         QMainWindow.__init__(self)
