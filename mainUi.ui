@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1099</width>
-    <height>773</height>
+    <width>484</width>
+    <height>373</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QWidget" name="formLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>320</y>
+      <x>60</x>
+      <y>140</y>
       <width>351</width>
       <height>141</height>
      </rect>
@@ -83,15 +83,15 @@
    <widget class="QLabel" name="labeltext4_2">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>20</y>
-      <width>431</width>
-      <height>151</height>
+      <x>120</x>
+      <y>30</y>
+      <width>231</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -104,7 +104,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1099</width>
+     <width>484</width>
      <height>26</height>
     </rect>
    </property>
