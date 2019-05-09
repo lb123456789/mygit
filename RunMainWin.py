@@ -45,46 +45,41 @@ import mainUione
 # 在这个类的构造函数中运行类父类的构造函数， 并且把它自己作为参数产地给setupUi，
 class MainCode(QMainWindow,mainUi.Ui_MainWindow,):
     # 本类的初始化方法
-    def __init__(self):
-        QMainWindow.__init__(self)
-        mainUi.Ui_MainWindow.__init__(self)
-        self.setupUi(self)
-        self.setWindowTitle("Ui与逻辑分离Demo")
+        def __init__(self):
+            QMainWindow.__init__(self)
+            mainUi.Ui_MainWindow.__init__(self)
+            self.setupUi(self)
+            self.setWindowTitle("Ui与逻辑分离Demo")
 
-        # 设置按钮btn1状态
-        self.btn1 = self.pushButton1
-        self.btn1.setText("防护已关闭")
-        self.btn1.setCheckable(True)  # 设置已经被点击
-        self.btn1.toggle()  # 切换按钮状态
-        self.btn1.clicked.connect(self.btnState)
-        self.btn1.clicked.connect(lambda: self.wichBtn(self.btn1))
+            # 设置按钮btn1状态
+            self.btn1 = self.pushButton1
+            self.btn1.clicked.connect(self.slot_btn_function1)
 
-    windowList = []
-
-    def btnState(self):
-        if self.btn1.isChecked():
-            print("Btn1被单击")
-        else:
-            print("Btn1未被单击")
-
-    def wichBtn(self, btn):
-        the_window = MainCode1()
-        self.windowList.append(the_window)
-        self.close()
-        the_window.show()
-        #self.hide()
-        i =1
-        print(i)
-        i = i+1
+        def slot_btn_function1(self):
+            self.hide()
+            self.Window2 = MainCode1()
+            self.Window2.show()
 
 
  #第二个窗口
 class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
+
         def __init__(self):
             QMainWindow.__init__(self)
             mainUione.Ui_MainWindow.__init__(self)
             self.setupUi(self)
             self.setWindowTitle("第二个窗口")
+
+            # def一个按钮
+            self.bnt2 = self.buttonOpenwindow
+            self.bnt2.clicked.connect(self.slot_btn_function)
+
+        # 定义一个按钮槽
+        def slot_btn_function(self):
+            self.hide()
+            self.F = MainCode()
+            self.F.show()
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
