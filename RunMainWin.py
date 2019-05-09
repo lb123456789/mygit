@@ -38,11 +38,12 @@ from PyQt5.QtGui import QIcon,QPixmap
 from PyQt5.QtCore import *
 
 import mainUi
+import mainUione
 
 
 # 界面软件逻辑处理 MainCode类又提供了一个容器，这个类继承自QMainWindow,mainUi.Ui_MainWindow，
 # 在这个类的构造函数中运行类父类的构造函数， 并且把它自己作为参数产地给setupUi，
-class MainCode(QMainWindow,mainUi.Ui_MainWindow):
+class MainCode(QMainWindow,mainUi.Ui_MainWindow,):
     # 本类的初始化方法
     def __init__(self):
         QMainWindow.__init__(self)
@@ -58,33 +59,32 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         self.btn1.clicked.connect(self.btnState)
         self.btn1.clicked.connect(lambda: self.wichBtn(self.btn1))
 
-        # 标签文本初始化
-        self.lab1 = self.label1
-        self.lab2 = self.label2
+    windowList = []
 
-        # 获取文本lineEdit
-        self.LineEdit1 = self.lineEdit1
-        print("开始")
-
-
-
-    # 鼠标点击事件处理
     def btnState(self):
         if self.btn1.isChecked():
             print("Btn1被单击")
-            self.lab1.setText("你好，按钮被单击了")
-            self.btn1.setText("防护已打开")
-
         else:
             print("Btn1未被单击")
-            self.lab1.setText("你好，按钮被单击了1212")
-            self.btn1.setText("防护已关闭")
 
-    # 鼠标事件
     def wichBtn(self, btn):
-        self.lab2.setText(self.LineEdit1.text())
-        print("点击的按钮是：", btn.text())
-        print("点击的按钮是：", self.lab2.text())
+        the_window = MainCode1()
+        self.windowList.append(the_window)
+        self.close()
+        the_window.show()
+        #self.hide()
+        i =1
+        print(i)
+        i = i+1
+
+
+ #第二个窗口
+class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
+        def __init__(self):
+            QMainWindow.__init__(self)
+            mainUione.Ui_MainWindow.__init__(self)
+            self.setupUi(self)
+            self.setWindowTitle("第二个窗口")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
