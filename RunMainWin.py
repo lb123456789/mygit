@@ -8,28 +8,6 @@
 # Date:2019/4/27
 # 文件注解
 # -------------------------------------------------------------------------------
-"""
-QLabel控件
-
-setAlignment()：设置文本的对齐方式
-
-setIndent()：设置文本缩进
-
-text()：获取文本内容
-
-setBuddy()：设置伙伴关系
-
-setText()：设置文本内容
-
-selectedText()：返回所选择的字符
-
-setWordWrap()：设置是否允许换行
-
-QLabel常用的信号（事件）：
-1.  当鼠标滑过QLabel控件时触发：linkHovered
-2.  当鼠标单击QLabel控件时触发：linkActivated
-
-"""
 
 
 import sys
@@ -60,17 +38,12 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow,):
             self .name = self.setNemeEdit1
             self.Password = self.PWDEdit2
 
-
-
-
         def slot_btn_function1(self):
             self.hide()
             self.Window2 = MainCode1()
             self.Window2.show()
 
-
-
- #第二个窗口
+# 第二个窗口
 class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
 
         def __init__(self):

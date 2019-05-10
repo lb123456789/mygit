@@ -36,7 +36,7 @@ QLabel常用的信号（事件）：
 
 import sys
 
-from PyQt5.QtWidgets import  QPushButton,QVBoxLayout,QWidget,QApplication,QMainWindow
+from PyQt5.QtWidgets import  QPushButton,QVBoxLayout,QWidget,QApplication,QMainWindow,QLineEdit
 from PyQt5.QtGui import QIcon,QPixmap
 import mainUi
 
@@ -74,6 +74,19 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         self.LineEdit3 = self.lineEdit3
         self.LineEdit4 = self.lineEdit4
         print("开始")
+
+        # 未激活使用时候，灰色显示内容
+        self.LineEdit1.setPlaceholderText("Normal")
+        self.LineEdit2.setPlaceholderText("NoEcho")
+        self.LineEdit3.setPlaceholderText("Password")
+        self.LineEdit4.setPlaceholderText("PasswordEchoOnEdit")
+
+
+        # 设置回显示模式
+        self.LineEdit1.setEchoMode(QLineEdit.Normal)
+        self.LineEdit2.setEchoMode(QLineEdit.NoEcho)
+        self.LineEdit3.setEchoMode(QLineEdit.Password)
+        self.LineEdit4.setEchoMode(QLineEdit.PasswordEchoOnEdit)
 
 
 
