@@ -43,7 +43,7 @@
    <widget class="QPushButton" name="buttonOpenwindow">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>210</x>
       <y>180</y>
       <width>93</width>
       <height>28</height>
@@ -51,6 +51,32 @@
     </property>
     <property name="text">
      <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lampCloesButton">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>灯开</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lampOpenButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>240</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>灯关</string>
     </property>
    </widget>
   </widget>
