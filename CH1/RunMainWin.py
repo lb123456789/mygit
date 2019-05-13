@@ -37,7 +37,9 @@ QLabel常用的信号（事件）：
 import sys
 
 from PyQt5.QtWidgets import  QPushButton,QVBoxLayout,QWidget,QApplication,QMainWindow,QLineEdit
-from PyQt5.QtGui import QIcon,QPixmap
+from PyQt5.QtGui import QIntValidator,QDoubleValidator,QRegExpValidator
+from PyQt5.QtCore import QRegExp
+
 import mainUi
 
 
@@ -66,13 +68,15 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         self.lab1 = self.label1
         self.lab2 = self.label2
 
-
-
         # 获取文本lineEdit
         self.LineEdit1 = self.lineEdit1
         self.LineEdit2 = self.lineEdit2
         self.LineEdit3 = self.lineEdit3
         self.LineEdit4 = self.lineEdit4
+        # 校验
+        self.IntEdit = self.intLineEdit
+        self.DoubleEdit = self.doubleLineEdit
+        self.ValidatorEdit = self.validatorLineEdit
         print("开始")
 
         # 未激活使用时候，灰色显示内容
@@ -81,12 +85,33 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         self.LineEdit3.setPlaceholderText("Password")
         self.LineEdit4.setPlaceholderText("PasswordEchoOnEdit")
 
-
         # 设置回显示模式
+        # 通用
         self.LineEdit1.setEchoMode(QLineEdit.Normal)
+        # 看不见
         self.LineEdit2.setEchoMode(QLineEdit.NoEcho)
+        # 看见的是密码模式***
         self.LineEdit3.setEchoMode(QLineEdit.Password)
+        #  刚开始可以看见，跳转下看到的是****
         self.LineEdit4.setEchoMode(QLineEdit.PasswordEchoOnEdit)
+
+
+        # 创建校验器[1,99]
+        intValidator = QIntValidator(self)
+        intValidator.setRange(1,99)
+
+        # 浮点数校验器[360,-360];精度小数点后2位
+        doubleValidator = QDoubleValidator(self)
+        doubleValidator.setRange(-360,360)
+        doubleValidator.setNotation(QDoubleValidator.StandardNotation)
+        doubleValidator.setDecimals(2)
+
+        # 字符和数组
+        reg = QRegExp("[a-zA-Z0-9]+$")
+        validator = QRegExpValidator(self)
+        validator.setRegExp(reg)
+
+        # 设置校验器
 
 
 

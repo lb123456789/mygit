@@ -30,8 +30,8 @@
    <widget class="QPushButton" name="pushButton1">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>540</y>
+      <x>370</x>
+      <y>180</y>
       <width>51</width>
       <height>21</height>
      </rect>
@@ -98,8 +98,8 @@
    <widget class="QWidget" name="formLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>420</y>
+      <x>300</x>
+      <y>60</y>
       <width>181</width>
       <height>111</height>
      </rect>
@@ -147,6 +147,75 @@
      </item>
     </layout>
    </widget>
+   <widget class="QLineEdit" name="intLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>490</y>
+      <width>142</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="doubleLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>540</y>
+      <width>142</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="validatorLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>590</y>
+      <width>142</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labeltext4_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>500</y>
+      <width>30</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>整型</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labeltext4_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>540</y>
+      <width>30</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>浮点</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labeltext4_4">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>590</y>
+      <width>30</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>字符</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -154,7 +223,7 @@
      <x>0</x>
      <y>0</y>
      <width>1056</width>
-     <height>23</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

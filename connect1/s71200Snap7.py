@@ -112,7 +112,7 @@ class WidgetsDemo:
         plc = snap7.client.Client()
         try:
             plc.connect(self.IP.get(), self.rack.get(), self.slot.get())
-            #if plc.get_connected:
+            # if plc.get_connected:
             self.txtMsg.insert(END,'连接成功')
             plc.disconnect()
         except  Exception as e:
