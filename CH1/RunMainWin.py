@@ -40,7 +40,7 @@ from PyQt5.QtWidgets import  QPushButton,QVBoxLayout,QWidget,QApplication,QMainW
 from PyQt5.QtGui import QIntValidator,QDoubleValidator,QRegExpValidator
 from PyQt5.QtCore import QRegExp
 
-import mainUi
+from CH1 import mainUi
 
 
 
@@ -51,6 +51,7 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
 
     # 本类的初始化方法
     def __init__(self):
+        super().__init__()
         QMainWindow.__init__(self)
         mainUi.Ui_MainWindow.__init__(self)
         self.setupUi(self)
@@ -112,7 +113,9 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         validator.setRegExp(reg)
 
         # 设置校验器
-
+        self.IntEdit.setValidator(intValidator)
+        self.DoubleEdit.setValidator(doubleValidator)
+        self.ValidatorEdit.setValidator(validator)
 
 
     # 鼠标点击事件处理

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edceb44d-fd9d-4da9-958a-09b8a377d5d9" name="Default Changelist" comment="界面切换">
+      <change beforePath="$PROJECT_DIR$/.idea/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CH1/RunMainWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CH1/RunMainWin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CH1/mainUi.py" beforeDir="false" afterPath="$PROJECT_DIR$/CH1/mainUi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CH1/mainUi.ui" beforeDir="false" afterPath="$PROJECT_DIR$/CH1/mainUi.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect1/s71200Snap7.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect1/s71200Snap7.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CH1/RunMainWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+            <state relative-caret-position="196">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#523#533#0" expanded="true" />
               </folding>
@@ -69,9 +67,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="95" />
-    <option name="y" value="301" />
-    <option name="width" value="1493" />
-    <option name="height" value="943" />
+    <option name="y" value="300" />
+    <option name="width" value="1494" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -90,11 +88,6 @@
               <item name="mygit" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygit" type="462c0819:PsiDirectoryNode" />
               <item name="CH1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -129,7 +122,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.RunMainWin (2)">
-    <configuration name="RunMainWin (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RunMainWin (2)" type="PythonConfigurationType" factoryName="Python">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,7 +234,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.RunMainWin (2)" />
         <item itemvalue="Python.RunMainWin" />
         <item itemvalue="Python.s71200Snap7" />
         <item itemvalue="Python.modbustcp (1)" />
@@ -269,6 +261,7 @@
       <workItem from="1557545123158" duration="2067000" />
       <workItem from="1557557609885" duration="839000" />
       <workItem from="1557722047078" duration="7886000" />
+      <workItem from="1557811800497" duration="2418000" />
     </task>
     <task id="LOCAL-00001" summary="工作空间">
       <created>1557360077043</created>
@@ -323,12 +316,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48918000" />
+    <option name="totallyTimeSpent" value="51336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19839142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32991204" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.27419356" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32719547" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.27620396" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,7 +366,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -363,7 +380,7 @@
     <SUITE FILE_PATH="coverage/mygit$modbustcp.coverage" NAME="modbustcp Coverage Results" MODIFIED="1557550361853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$QObject.coverage" NAME="QObject Coverage Results" MODIFIED="1557404574672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/PyQt5/QtCore" />
     <SUITE FILE_PATH="coverage/mygit$s71200Snap7.coverage" NAME="s71200Snap7 Coverage Results" MODIFIED="1557724877275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
-    <SUITE FILE_PATH="coverage/mygit$RunMainWin.coverage" NAME="RunMainWin Coverage Results" MODIFIED="1557724889341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mygit$RunMainWin.coverage" NAME="RunMainWin Coverage Results" MODIFIED="1557812448946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mygit$OpenExcel.coverage" NAME="OpenExcel Coverage Results" MODIFIED="1557473452371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
     <SUITE FILE_PATH="coverage/mygit$CreatTbable.coverage" NAME="CreatTbable Coverage Results" MODIFIED="1557473120211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
     <SUITE FILE_PATH="coverage/mygit$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1557400568995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
@@ -377,16 +394,10 @@
     <SUITE FILE_PATH="coverage/mygit$RunMainWin__1_.coverage" NAME="RunMainWin (1) Coverage Results" MODIFIED="1557482257515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH2" />
     <SUITE FILE_PATH="coverage/mygit$modbustcp__1_.coverage" NAME="modbustcp (1) Coverage Results" MODIFIED="1557723618993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mygit$testqiehuan.coverage" NAME="testqiehuan Coverage Results" MODIFIED="1557399923533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
-    <SUITE FILE_PATH="coverage/mygit$RunMainWin__2_.coverage" NAME="RunMainWin (2) Coverage Results" MODIFIED="1557732430896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH1" />
+    <SUITE FILE_PATH="coverage/mygit$RunMainWin__2_.coverage" NAME="RunMainWin (2) Coverage Results" MODIFIED="1557814107425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg" />
     <entry file="file://$PROJECT_DIR$/UI/mainUi.ui" />
     <entry file="file://$PROJECT_DIR$/UI/mainUi1.ui" />
     <entry file="file://$PROJECT_DIR$/UI/mainUione.ui" />
@@ -394,9 +405,7 @@
     <entry file="file://$PROJECT_DIR$/UI/RunMainWin.py" />
     <entry file="file://$PROJECT_DIR$/UI/test.py" />
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/controls/QuitApplication.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/controls/QuitApplication.py" />
     <entry file="file://$PROJECT_DIR$/UI/testqiehuan.py" />
     <entry file="file://$PROJECT_DIR$/UI/test3.py" />
     <entry file="file://$PROJECT_DIR$/UI/test2.py" />
@@ -411,9 +420,6 @@
     <entry file="file://$PROJECT_DIR$/mygit.py" />
     <entry file="file://$PROJECT_DIR$/Excel/config.py" />
     <entry file="file://$PROJECT_DIR$/Excel/OpenExcel.py" />
-    <entry file="file://$PROJECT_DIR$/mainUi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainUione.ui" />
     <entry file="file://$PROJECT_DIR$/CH2/mainUione.py" />
     <entry file="file://$PROJECT_DIR$/CH2/RunMainWin.py" />
@@ -425,20 +431,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/modbustcp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/OpenOPC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/connect1/modbustcp.py" />
+    <entry file="file://$PROJECT_DIR$/connect1/OpenOPC.py" />
     <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/snap7/common.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
@@ -449,73 +443,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modbustcp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#282#292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Excel/CreatTbable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Excel/Exceltest20.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Excel/ch1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#311#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainUione.py">
+    <entry file="file://$PROJECT_DIR$/modbustcp.py" />
+    <entry file="file://$PROJECT_DIR$/Excel/CreatTbable.py" />
+    <entry file="file://$PROJECT_DIR$/Excel/Exceltest20.py" />
+    <entry file="file://$PROJECT_DIR$/Excel/ch1.py" />
+    <entry file="file://$PROJECT_DIR$/mainUione.py" />
+    <entry file="file://$PROJECT_DIR$/connect1/s71200Snap7.py" />
+    <entry file="file://$PROJECT_DIR$/mainUi.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/s71200Snap7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding>
-            <element signature="e#30#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CH1/mainUi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="79" column="69" lean-forward="true" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RunMainWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="262">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
             <element signature="e#270#280#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CH1/mainUi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/PyQt5/QtGui/QIntValidator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/PyQt5/QtWidgets/QLineEdit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="472" column="8" selection-start-line="472" selection-start-column="8" selection-end-line="472" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/controls/QLineEditValidator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CH1/RunMainWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+        <state relative-caret-position="196">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#523#533#0" expanded="true" />
           </folding>
