@@ -40,6 +40,7 @@ from PyQt5.QtWidgets import  QPushButton,QVBoxLayout,QWidget,QApplication,QMainW
 from PyQt5.QtGui import QIntValidator,QDoubleValidator,QRegExpValidator
 from PyQt5.QtCore import QRegExp
 
+# mainUi 来之CH1文件夹
 from CH1 import mainUi
 
 
