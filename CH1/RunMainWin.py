@@ -97,7 +97,6 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         #  刚开始可以看见，跳转下看到的是****
         self.LineEdit4.setEchoMode(QLineEdit.PasswordEchoOnEdit)
 
-
         # 创建校验器[1,99]
         intValidator = QIntValidator(self)
         intValidator.setRange(1,99)
