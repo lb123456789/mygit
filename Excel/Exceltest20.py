@@ -31,11 +31,11 @@ for i in range(50):
 book.save('bookname.xls')
 
 # Excel中数据的读取查找
-worksheet = xlrd.open_workbook('bookname.xls')
+worksheet = xlrd.open_workbook('KingdeeExpImp80.xls')
 # 获取excel中所有工作表名
 sheet_names = worksheet.sheet_names()
 # 根据Sheet名获取数据
-sheet2 = worksheet.sheet_by_name('sheetname')
+sheet2 = worksheet.sheet_by_name('KingdeeExpImp80')
 # 根据索引获取数据，索引为0开始，1表示获取第二张工作表数据
 sheet2 = worksheet.sheet_by_index(0)
 
