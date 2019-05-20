@@ -6,6 +6,31 @@
 # -------------------------------------------
 # encoding = utf-8
 
+"""
+pymysql.Connect()参数说明
+host(str):      MySQL服务器地址
+port(int):      MySQL服务器端口号
+user(str):      用户名
+passwd(str):    密码
+db(str):        数据库名称
+charset(str):   连接编码
+
+connection对象支持的方法
+cursor()        使用该连接创建并返回游标
+commit()        提交当前事务
+rollback()      回滚当前事务
+close()         关闭连接
+
+cursor对象支持的方法
+execute(op)     执行一个数据库的查询命令
+fetchone()      取得结果集的下一行
+fetchmany(size) 获取结果集的下几行
+fetchall()      获取结果集中的所有行
+rowcount()      返回数据条数或影响行数
+close()         关闭游标对象
+"""
+
+
 import xlrd
 import time
 import sys
@@ -14,35 +39,13 @@ import pymysql.cursors
 
 # 从users.xls文件获取10000条用户数据
 # 该文件由create_users.py生成
-def get_table():
-    FILE_NAME = 'KingdeeExpImp80.xls'
+def get_table(tablename):
+    FILE_NAME = tablename
     data = xlrd.open_workbook(FILE_NAME)
     table = data.sheets()[0]
     return table
 
-"""
-# 循环插入execute
-def insert_by_loop(table):
-    nrows = table.nrows
-    print(nrows)
-    for i in range(1, nrows):
-        param = []
-        try:
-            sql = 'INSERT INTO user values(%s,%s,%s,%s,%s)'
-            # 第一列username，第二列salt，第三列pwd
-            print
-            'Insert: ', table.cell(i, 0).value, table.cell(i, 1).value, table.cell(i, 2).value
-            param = (table.cell(i, 0).value, table.cell(i, 1).value, table.cell(i, 2).value)
-            # 单条插入
-            cur.execute(sql, param)
-            conn.commit()
-        except Exception as e:
-            print
-            e
-            conn.rollback()
-    print
-    '[insert_by_loop execute] total:', nrows - 1
-"""
+
 
 # 批量插入executemany
 def insert_by_many(table):
@@ -56,6 +59,7 @@ def insert_by_many(table):
         # 批量插入
         cur.executemany(sql, param)
         conn.commit()
+        # 定义一个异常实例e
     except Exception as e:
         print
         e
@@ -63,8 +67,7 @@ def insert_by_many(table):
     print
     '[insert_by_many executemany] total:', nrows - 1
 
-
-# 连接数据库
+    # 连接数据库
 conn = pymysql.connect(host="localhost", port=3306, user="root", passwd="root", db="mysqltest",charset='utf8')
 cur = conn.cursor()
 
@@ -81,10 +84,11 @@ sql = """CREATE TABLE user(
 cur.execute(sql)
 
 # 从excel文件获取数据
-table = get_table()
-insert_by_many(table )
+table = get_table("KingdeeExpImp80.xls")
+insert_by_many(table)
 # 释放数据连接
+
 if cur:
-    cur.close()
+        cur.close()
 if conn:
-    conn.close()
+        conn.close()

@@ -46,6 +46,7 @@ from CH1 import mainUi
 
 
 
+
 # 界面软件逻辑处理 MainCode类又提供了一个容器，这个类继承自QMainWindow,mainUi.Ui_MainWindow，
 # 在这个类的构造函数中运行类父类的构造函数， 并且把它自己作为参数产地给setupUi，
 class MainCode(QMainWindow,mainUi.Ui_MainWindow):
@@ -140,4 +141,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     mainWindow = MainCode()
     mainWindow.show()
+
     sys.exit(app.exec_())

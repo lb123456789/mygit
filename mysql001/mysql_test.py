@@ -22,7 +22,6 @@ rowcount()      返回数据条数或影响行数
 close()         关闭游标对象
 """
 import pymysql
-import pymysql.cursors
 
 # 连接数据库
 connect = pymysql.Connect(
