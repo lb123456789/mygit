@@ -14,13 +14,11 @@ user(str):      用户名
 passwd(str):    密码
 db(str):        数据库名称
 charset(str):   连接编码
-
 connection对象支持的方法
 cursor()        使用该连接创建并返回游标
 commit()        提交当前事务
 rollback()      回滚当前事务
 close()         关闭连接
-
 cursor对象支持的方法
 execute(op)     执行一个数据库的查询命令
 fetchone()      取得结果集的下一行
@@ -53,8 +51,8 @@ class Table1(object):
         param = []
         for i in range(1, nrows):
             # 第一列username，第二列salt，第三列pwd
-            self.param.append([i, table.cell(i, 0).value, table.cell(i, 1).value, table.cell(i, 4).value,
-                               table.cell(i, 5).value, table.cell(i, 6).value])
+            param.append([i, table.cell(i, 0).value, table.cell(i, 1).value, table.cell(i, 4).value,
+                          table.cell(i, 5).value, table.cell(i, 6).value])
 
         return (param,nrows)
 
@@ -69,7 +67,7 @@ class Table1(object):
         sql = """CREATE TABLE name1(
                 序号 CHAR(254),
                 ERP代码 CHAR(254) NOT NULL,
-                名称 CHAR(254),5
+                名称 CHAR(254),
                 规格型号 CHAR(255),
                 物料属性 CHAR(255),
                 计量单位 CHAR(255)
@@ -97,12 +95,11 @@ class Table1(object):
         if conn:
                 conn.close()
 
-
-
+# 类实例化
 tt = Table1()
-YY = tt.get_table("KingdeeExpImp80.xls")
+# 调用实例的一个方法
+yy = tt.get_table("KingdeeExpImp80.xls")
+(MM,NN)=tt.read_tabledata(yy)
+tt.readdatalib(MM,NN)
 
-(param1, nrows1) = tt.readdatalib(YY)
-print(nrows1)
-bb = "yy"
-tt.readdatalib( param1, 11)
+

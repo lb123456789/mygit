@@ -42,26 +42,7 @@ from PyQt5.QtCore import QRegExp
 
 # mainUi 来之CH1文件夹
 from CH1 import mainUi
-from mysql001 import mysql005
 
-class kkk (mysql005.Table1):
-    def __init__(self):
-        super(self).__init__()
-        kkkkk = kkk()
-        tt = kkkkk.get_table("G:\KingdeeExpImp80.xls")
-
-        (param1, nrows1) = kkkkk.readdatalib(tt)
-        bb = "yy"
-        kkkkk.readdatalib(bb, param1, nrows1)
-    """
-    def __init__(self):
-        super().__init__()
-        self.tt = self.get_table("G:\KingdeeExpImp80.xls")
-        (param1, nrows1) = self.readdatalib(self.tt)
-        bb = "yy"
-        self.readdatalib(bb,param1, nrows1)
-
-    """
 
 
 
@@ -162,6 +143,4 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     mainWindow = MainCode()
     mainWindow.show()
-
-
     sys.exit(app.exec_())

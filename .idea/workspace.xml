@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edceb44d-fd9d-4da9-958a-09b8a377d5d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysql001/mysql005_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CH1/RunMainWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CH1/RunMainWin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql001/mysql005.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysql001/mysql005.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql001/mysql005_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysql001/mysql005_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,45 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysql001/mysql005.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="24" />
-              <folding>
-                <element signature="e#218#673#1" />
-                <element signature="e#676#687#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysql001/mysql005_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-205">
-              <caret line="73" selection-start-line="73" selection-end-line="75" selection-end-column="40" />
-              <folding>
-                <element signature="e#218#673#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CH1/RunMainWin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="48" column="30" lean-forward="true" selection-start-line="49" selection-end-line="54" selection-end-column="45" />
-              <folding>
-                <element signature="e#523#533#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,19 +58,19 @@
         <option value="D:/ProgramData/Anaconda3/Lib/site-packages/xlrd/book.py" />
         <option value="$PROJECT_DIR$/mysql001/mysql.py" />
         <option value="$PROJECT_DIR$/mysql001/mysql002.py" />
-        <option value="$PROJECT_DIR$/yufa.py" />
         <option value="$PROJECT_DIR$/mysql001/mysql_test.py" />
         <option value="$PROJECT_DIR$/kk/main.py" />
         <option value="$PROJECT_DIR$/Excel/Exceltest20.py" />
-        <option value="$PROJECT_DIR$/mysql001/mysql005_1.py" />
+        <option value="$PROJECT_DIR$/yufa.py" />
         <option value="$PROJECT_DIR$/CH1/RunMainWin.py" />
+        <option value="$PROJECT_DIR$/mysql001/mysql005_1.py" />
         <option value="$PROJECT_DIR$/mysql001/mysql005.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="192" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="190" />
+    <option name="y" value="40" />
     <option name="width" value="1615" />
     <option name="height" value="945" />
   </component>
@@ -143,7 +107,7 @@
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/modbus-tk-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/connect1" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -167,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mysql005">
+  <component name="RunManager" selected="Python.SiemensS7NetTest">
     <configuration name="Exceltest20" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SiemensS7NetTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,12 +184,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kk" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kk/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect1/SiemensS7NetTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="yufa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,12 +250,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql001" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql001/mysql_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yufa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SiemensS7NetTest" />
         <item itemvalue="Python.mysql005" />
         <item itemvalue="Python.mysql005_1" />
+        <item itemvalue="Python.yufa" />
         <item itemvalue="Python.Exceltest20" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.mysql_test" />
       </list>
     </recent_temporary>
   </component>
@@ -341,6 +305,8 @@
       <workItem from="1558187553924" duration="4222000" />
       <workItem from="1558352747856" duration="5928000" />
       <workItem from="1558359715803" duration="10675000" />
+      <workItem from="1558399141813" duration="4681000" />
+      <workItem from="1558405381737" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="工作空间">
       <created>1557360077043</created>
@@ -430,17 +396,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123137000" />
+    <option name="totallyTimeSpent" value="128924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-156" y="90" width="1615" height="945" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16012862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13605899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.36868066" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.28592375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -493,12 +459,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="MySQL测试成功" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mygit$SiemensS7NetTest.coverage" NAME="SiemensS7NetTest Coverage Results" MODIFIED="1558489732148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$modbustcp.coverage" NAME="modbustcp Coverage Results" MODIFIED="1557550361853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$QObject.coverage" NAME="QObject Coverage Results" MODIFIED="1557404574672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/PyQt5/QtCore" />
     <SUITE FILE_PATH="coverage/mygit$RunMainWin.coverage" NAME="RunMainWin Coverage Results" MODIFIED="1557975239969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mygit$mysql_test.coverage" NAME="mysql_test Coverage Results" MODIFIED="1558356784581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$OpenExcel.coverage" NAME="OpenExcel Coverage Results" MODIFIED="1557473452371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
-    <SUITE FILE_PATH="coverage/mygit$mysql005_1.coverage" NAME="mysql005_1 Coverage Results" MODIFIED="1558364999468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
+    <SUITE FILE_PATH="coverage/mygit$mysql005_1.coverage" NAME="mysql005_1 Coverage Results" MODIFIED="1558403579793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$book.coverage" NAME="book Coverage Results" MODIFIED="1558061562496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/ProgramData/Anaconda3/Lib/site-packages/xlrd" />
     <SUITE FILE_PATH="coverage/mygit$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1558072106066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1557398348194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
@@ -507,7 +474,7 @@
     <SUITE FILE_PATH="coverage/mygit$232.coverage" NAME="232 Coverage Results" MODIFIED="1557974141645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$TEST1.coverage" NAME="TEST1 Coverage Results" MODIFIED="1558054239471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$modbustcp__1_.coverage" NAME="modbustcp (1) Coverage Results" MODIFIED="1557723618993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mygit$RunMainWin__2_.coverage" NAME="RunMainWin (2) Coverage Results" MODIFIED="1558369269295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH1" />
+    <SUITE FILE_PATH="coverage/mygit$RunMainWin__2_.coverage" NAME="RunMainWin (2) Coverage Results" MODIFIED="1558403257758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH1" />
     <SUITE FILE_PATH="coverage/mygit$s71200Snap7.coverage" NAME="s71200Snap7 Coverage Results" MODIFIED="1557724877275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$QWQ.coverage" NAME="QWQ Coverage Results" MODIFIED="1558054692998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$CreatTbable.coverage" NAME="CreatTbable Coverage Results" MODIFIED="1557473120211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
@@ -516,8 +483,8 @@
     <SUITE FILE_PATH="coverage/mygit$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1557375933890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/mygit$denglu.coverage" NAME="denglu Coverage Results" MODIFIED="1557467851300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/mygit$main.coverage" NAME="main Coverage Results" MODIFIED="1558357683145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kk" />
-    <SUITE FILE_PATH="coverage/mygit$yufa.coverage" NAME="yufa Coverage Results" MODIFIED="1558354984231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mygit$mysql005.coverage" NAME="mysql005 Coverage Results" MODIFIED="1558370283791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
+    <SUITE FILE_PATH="coverage/mygit$yufa.coverage" NAME="yufa Coverage Results" MODIFIED="1558401036092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mygit$mysql005.coverage" NAME="mysql005 Coverage Results" MODIFIED="1558406403007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$config.coverage" NAME="config Coverage Results" MODIFIED="1557469153975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
     <SUITE FILE_PATH="coverage/mygit$RunMainWin__1_.coverage" NAME="RunMainWin (1) Coverage Results" MODIFIED="1557482257515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH2" />
     <SUITE FILE_PATH="coverage/mygit$mysql002.coverage" NAME="mysql002 Coverage Results" MODIFIED="1558076540576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
@@ -562,13 +529,6 @@
     <entry file="file://$PROJECT_DIR$/mysql001/mysql.py" />
     <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/xlrd/__init__.py" />
     <entry file="file://$PROJECT_DIR$/mysql001/QWQ.py" />
-    <entry file="file://$PROJECT_DIR$/yufa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysql001/mysql002.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -587,13 +547,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pymysql/cursors.py" />
     <entry file="file://$PROJECT_DIR$/Excel/ch1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1173" />
@@ -634,40 +588,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pymysql/err.py" />
+    <entry file="file://$PROJECT_DIR$/yufa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CH1/RunMainWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="49" selection-end-line="54" selection-end-column="45" />
+        <state relative-caret-position="95">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#523#533#0" expanded="true" />
+            <element signature="e#1500#4146#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql001/mysql005_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="73" selection-start-line="73" selection-end-line="75" selection-end-column="40" />
+        <state relative-caret-position="367">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
           <folding>
-            <element signature="e#218#673#1" />
+            <element signature="e#674#685#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pymysql/err.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql001/mysql005.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="24" />
+        <state relative-caret-position="703">
+          <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
-            <element signature="e#218#673#1" />
-            <element signature="e#676#687#0" expanded="true" />
+            <element signature="e#674#685#0" expanded="true" />
           </folding>
         </state>
       </provider>

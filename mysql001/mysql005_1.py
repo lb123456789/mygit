@@ -14,13 +14,11 @@ user(str):      用户名
 passwd(str):    密码
 db(str):        数据库名称
 charset(str):   连接编码
-
 connection对象支持的方法
 cursor()        使用该连接创建并返回游标
 commit()        提交当前事务
 rollback()      回滚当前事务
 close()         关闭连接
-
 cursor对象支持的方法
 execute(op)     执行一个数据库的查询命令
 fetchone()      取得结果集的下一行
@@ -39,58 +37,69 @@ import pymysql.cursors
 
 # 从users.xls文件获取10000条用户数据
 # 该文件由create_users.py生成
-def get_table(tablename):
-    FILE_NAME = tablename
-    data = xlrd.open_workbook(FILE_NAME)
-    table = data.sheets()[0]
-    return table
 
-# 读取Excel数据放在param中
-def read_tabledata(table):
-    nrows = table.nrows
-    param = []
-    for i in range(1, nrows):
-        # 第一列username，第二列salt，第三列pwd
-        param.append([i,table.cell(i, 0).value, table.cell(i, 1).value, table.cell(i, 4).value, table.cell(i, 5).value, table.cell(i, 6).value])
-    return (param,nrows)
+class Table1(object):
+    def get_table(self,tablename):
+        FILE_NAME = tablename
+        data = xlrd.open_workbook(FILE_NAME)
+        table = data.sheets()[0]
+        return table
 
-# 连接数据库
-conn = pymysql.connect(host="localhost", port=3306, user="root", passwd="root", db="mysqltest",charset='utf8')
-cur = conn.cursor()
+    # 读取Excel数据放在param中
+    def read_tabledata(self,table):
+        nrows = table.nrows
+        param = []
+        for i in range(1, nrows):
+            # 第一列username，第二列salt，第三列pwd
+            param.append([i, table.cell(i, 0).value, table.cell(i, 1).value, table.cell(i, 4).value,
+                               table.cell(i, 5).value, table.cell(i, 6).value])
 
-# 新建数据库
-cur.execute('DROP TABLE IF EXISTS user1')
-sql = """CREATE TABLE user1(
-        序号 CHAR(254),
-		ERP代码 CHAR(254) NOT NULL,
-		名称 CHAR(254),
-		规格型号 CHAR(255),
-		物料属性 CHAR(255),
-		计量单位 CHAR(255)
-		)"""
-cur.execute(sql)
+        return (param,nrows)
 
-# 从excel文件获取数据
-table = get_table("G:\KingdeeExpImp80.xls")
 
-(param1, nrows1) = read_tabledata(table)
+    # 连接数据库
+    def readdatalib(self,param1, nrows1):
+        conn = pymysql.connect(host="localhost", port=3306, user="root", passwd="root", db="mysqltest",charset='utf8')
+        cur = conn.cursor()
 
-#数据库插入数据
-try:
-    sql = 'INSERT INTO user1 values(%s,%s,%s,%s,%s,%s)'
-    # 批量插入
-    cur.executemany(sql, param1)
-    conn.commit()
-    # 定义一个异常实例e
-except Exception as e:
-    print
-    e
-    conn.rollback()
-print
-'[insert_by_many executemany] total:', nrows1 - 1
+        # 新建数据库
+        cur.execute('DROP TABLE IF EXISTS name1')
+        sql = """CREATE TABLE name1(
+                序号 CHAR(254),
+                ERP代码 CHAR(254) NOT NULL,
+                名称 CHAR(254),
+                规格型号 CHAR(255),
+                物料属性 CHAR(255),
+                计量单位 CHAR(255)
+                )"""
+        cur.execute(sql)
 
-# 释放数据连接
-if cur:
-        cur.close()
-if conn:
-        conn.close()
+
+        #数据库插入数据
+        try:
+            sql = 'INSERT INTO name1 values(%s,%s,%s,%s,%s,%s)'
+            # 批量插入
+            cur.executemany(sql, param1)
+            conn.commit()
+            # 定义一个异常实例e
+        except Exception as e:
+            print
+            e
+            conn.rollback()
+        print
+        '[insert_by_many executemany] total:', nrows1 - 1
+
+        # 释放数据连接
+        if cur:
+                cur.close()
+        if conn:
+                conn.close()
+
+# 类实例化
+tt = Table1()
+# 调用实例的一个方法
+yy = tt.get_table("KingdeeExpImp80.xls")
+(MM,NN)=tt.read_tabledata(yy)
+tt.readdatalib(MM,NN)
+
+
