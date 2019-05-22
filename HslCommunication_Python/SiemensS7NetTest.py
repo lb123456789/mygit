@@ -41,22 +41,22 @@ def printWriteResult(result, addr):
         print("falied[" + addr + "]  " + result.Message)
 
 if __name__ == "__main__":
-    siemens = SiemensS7Net(SiemensPLCS.S1200, "192.168.9.56")
+    siemens = SiemensS7Net(SiemensPLCS.S1200, "127.0.0.1")
     if siemens.ConnectServer().IsSuccess == False:
         print("connect falied")
     else:
         # bool read write test
-        siemens.WriteBool("M580.6",True)
-        printReadResult(siemens.ReadBool("M580.6"), "M580.6")
+        siemens.WriteBool("M80.6",True)
+        printReadResult(siemens.ReadBool("M80.6"), "M80.6")
 
         # byte read write test
-        siemens.WriteByte("M900", 58)
-        printReadResult(siemens.ReadByte("M500"), "M500")
+        siemens.WriteByte("M100", 58)
+        printReadResult(siemens.ReadByte("M100"), "M100")
 
         # int16 read write test
-        siemens.WriteInt16("M500", 12358)
-        printReadResult(siemens.ReadInt16("M500"), "M500")
-        """
+        siemens.WriteInt16("M102", 12358)
+        printReadResult(siemens.ReadInt16("M102"), "M102")
+
         # int16 read write test
         siemens.WriteInt16("M104", -12358)
         printReadResult(siemens.ReadInt16("M104"), "M104")
@@ -129,4 +129,3 @@ if __name__ == "__main__":
             print(read.Message)
 
         siemens.ConnectClose()
-        """
