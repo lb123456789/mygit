@@ -27,30 +27,42 @@ class SiemensTest(object):
         while True:
 
             # int16 read write test
-            #siemens.WriteInt16("M100", 12358)
-            #printReadResult(siemens.ReadInt16("M500"), "M500")
-            read = siemens.Read("M100", 20)
-            if read.IsSuccess:
+           # siemens.WriteInt16("M500", 10)
+          #  siemens.WriteInt16("M502", 20)
+           # siemens.WriteInt16("M504", 30)
+           # siemens.WriteInt16("M506", 40)
+
+           # printReadResult(siemens.ReadInt16("M500"), "M500")
+           # printReadResult(siemens.ReadInt16("M502"), "M502")
+            read = siemens.ReadInt16("DB100.20",1000)
+            printReadResult(read, "M100")
+          #  print(read.Content)
+
+            print(i)
+            i=i+1
+            """if read.IsSuccess:
                 count = siemens.byteTransform.TransInt32(read.Content, 0)
                 temp = siemens.byteTransform.TransSingle(read.Content, 4)
                 name1 = siemens.byteTransform.TransInt16(read.Content, 8)
                 barcode = read.Content[10:20].decode('ascii')
-
+                print(count)
             read = siemens.ReadFromCoreServer(SoftBasic.HexStringToBytes(
                 "03 00 00 24 02 F0 80 32 01 00 00 00 01 00 0E 00 05 05 01 12 0A 10 02 00 01 00 00 83 00 03 20 00 04 00 08 3B"))
             if read.IsSuccess:
                 # 显示服务器返回的报文
                 print(read.Content)
+                print()
             else:
                 # 读取错误
                 print(read.Message)
+                """
 
             siemens.ConnectClose()
 
 
-            print(i)
-            i=i+1
-"""
+            #print(i)
+            #i=i+1
+
 def printReadResult(result, addr):
         if result.IsSuccess:
             print("success[" + addr + "]   " + str(result.Content))
@@ -64,7 +76,7 @@ def printWriteResult(result, addr):
             print("falied[" + addr + "]  " + result.Message)
 
 
-
+"""
 if __name__ == "__main__":
     siemens = SiemensS7Net(SiemensPLCS.S1200, "192.168.9.56")
     if siemens.ConnectServer().IsSuccess == False:
