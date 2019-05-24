@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edceb44d-fd9d-4da9-958a-09b8a377d5d9" name="Default Changelist" comment="加入了通信">
-      <change afterPath="$PROJECT_DIR$/connect1/TCPclient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connect1/TCPserver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connect1/mySimens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled1.iml" afterDir="false" />
+    <list default="true" id="edceb44d-fd9d-4da9-958a-09b8a377d5d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/connect1/Process.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HslCommunication_Python/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HslCommunication_Python/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/connect1/SiemenTest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect1/SiemenTest1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yufa.py" beforeDir="false" afterPath="$PROJECT_DIR$/yufa.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,136 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/connect1/SiemenTest1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/multithread/Counter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-              <folding>
-                <element signature="e#174#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/connect1/mySimens.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="63" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="33" selection-end-column="63" />
-              <folding>
-                <element signature="n#!!doc" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramData/Anaconda3/Lib/threading.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="853" column="8" selection-start-line="853" selection-start-column="8" selection-end-line="853" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HslCommunication_Python/HslCommunication.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="651" column="24" selection-start-line="651" selection-start-column="6" selection-end-line="651" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#7662#1" />
-                <element signature="e#7663#7676#0" expanded="true" />
-                <element signature="e#7854#15338#0" />
-                <element signature="e#15373#28750#0" />
-                <element signature="e#28777#28842#0" />
-                <element signature="e#28867#30875#0" />
-                <element signature="e#29535#29601#0" />
-                <element signature="e#30146#30875#0" />
-                <element signature="e#30904#31503#0" />
-                <element signature="e#32049#32520#0" />
-                <element signature="e#32108#32146#0" />
-                <element signature="e#32562#33171#0" />
-                <element signature="e#33217#34161#0" />
-                <element signature="e#34209#34683#0" />
-                <element signature="e#34730#35289#0" />
-                <element signature="e#35330#35764#0" />
-                <element signature="e#35799#36499#0" />
-                <element signature="e#36543#36949#0" />
-                <element signature="e#36986#37317#0" />
-                <element signature="e#37362#37705#0" />
-                <element signature="e#37749#38094#0" />
-                <element signature="e#38096#38219#0" />
-                <element signature="e#38371#38434#0" />
-                <element signature="e#38458#48217#0" />
-                <element signature="e#48354#51653#0" />
-                <element signature="e#51699#53414#0" />
-                <element signature="e#53444#58133#0" />
-                <element signature="e#58287#58405#0" />
-                <element signature="e#58426#62829#0" />
-                <element signature="e#62851#63180#0" />
-                <element signature="e#63201#63480#0" />
-                <element signature="e#63502#66781#0" />
-                <element signature="e#66925#68212#0" />
-                <element signature="e#68356#70293#0" />
-                <element signature="e#70334#77131#0" />
-                <element signature="e#70644#70741#0" />
-                <element signature="e#70772#71208#0" />
-                <element signature="e#77178#83474#0" />
-                <element signature="e#83495#85554#0" />
-                <element signature="e#85603#89324#0" />
-                <element signature="e#89369#98998#0" />
-                <element signature="e#99034#99946#0" />
-                <element signature="e#99200#99382#0" />
-                <element signature="e#99973#101498#0" />
-                <element signature="e#101521#106724#0" />
-                <element signature="e#106768#113235#0" />
-                <element signature="e#110615#111213#0" />
-                <element signature="e#112423#112906#0" />
-                <element signature="e#112950#113235#0" />
-                <element signature="e#113039#113188#0" />
-                <element signature="e#113279#120832#0" />
-                <element signature="e#113438#113631#0" />
-                <element signature="e#113743#115081#0" />
-                <element signature="e#115186#117418#0" />
-                <element signature="e#115414#115777#0" />
-                <element signature="e#117479#118004#0" />
-                <element signature="e#117869#118004#0" />
-                <element signature="e#118043#118695#0" />
-                <element signature="e#118745#119921#0" />
-                <element signature="e#118798#118981#0" />
-                <element signature="e#119960#120499#0" />
-                <element signature="e#120543#120832#0" />
-                <element signature="e#120878#131088#0" />
-                <element signature="e#131126#131200#0" />
-                <element signature="e#131241#147387#0" />
-                <element signature="e#131241#131502#1" />
-                <element signature="e#147436#153648#0" />
-                <element signature="e#153692#154302#0" />
-                <element signature="e#154344#163181#0" />
-                <element signature="e#163210#165854#0" />
-                <element signature="e#165923#167282#0" />
-                <element signature="e#165999#166153#0" />
-                <element signature="e#166208#166653#0" />
-                <element signature="e#166697#167282#0" />
-                <element signature="e#167304#167803#0" />
-                <element signature="e#167839#173357#0" />
-                <element signature="e#173395#175144#0" />
-                <element signature="e#175284#180559#0" />
-                <element signature="e#180602#196184#0" />
-                <element signature="e#180726#180937#0" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -168,8 +38,8 @@
       <find>append</find>
       <find>ascii</find>
       <find>socket</find>
-      <find>83</find>
       <find>exitFlag</find>
+      <find>83</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,19 +77,20 @@
         <option value="$PROJECT_DIR$/connect1/SiemensS7NetTest.py" />
         <option value="$PROJECT_DIR$/connect1/OpenOPC.py" />
         <option value="$PROJECT_DIR$/HslCommunication_Python/SiemensS7NetTest.py" />
-        <option value="$PROJECT_DIR$/connect1/SiemenTest1.py" />
-        <option value="$PROJECT_DIR$/yufa.py" />
         <option value="$PROJECT_DIR$/connect1/TCPclien.py" />
         <option value="$PROJECT_DIR$/connect1/TCPserver;.py" />
         <option value="$PROJECT_DIR$/connect1/TCPclient.py" />
         <option value="$PROJECT_DIR$/connect1/TCPserver.py" />
         <option value="$PROJECT_DIR$/connect1/mySimens.py" />
+        <option value="$PROJECT_DIR$/yufa.py" />
+        <option value="$PROJECT_DIR$/connect1/Process.py" />
+        <option value="$PROJECT_DIR$/connect1/SiemenTest1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="265" />
-    <option name="y" value="85" />
+    <option name="x" value="251" />
+    <option name="y" value="112" />
     <option name="width" value="1420" />
     <option name="height" value="905" />
   </component>
@@ -238,17 +109,7 @@
             <path>
               <item name="mygit" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="CH1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygit" type="462c0819:PsiDirectoryNode" />
               <item name="connect1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="HslCommunication_Python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,7 +147,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mySimens">
+  <component name="RunManager" selected="Python.SiemenTest1">
+    <configuration name="Process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect1/Process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SiemenTest1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -331,50 +214,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TCPserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect1/TCPserver.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mySimens" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect1/mySimens.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="yufa" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -397,13 +236,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in Siemens1200.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HslCommunication_Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/HslCommunication_Python/Siemens1200.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mySimens" />
         <item itemvalue="Python.SiemenTest1" />
-        <item itemvalue="Python.TCPclient" />
-        <item itemvalue="Python.TCPserver" />
+        <item itemvalue="Python.Process" />
+        <item itemvalue="Python tests.Unittests in Siemens1200.py" />
         <item itemvalue="Python.yufa" />
+        <item itemvalue="Python.TCPclient" />
       </list>
     </recent_temporary>
   </component>
@@ -444,6 +298,9 @@
       <workItem from="1558490651495" duration="7436000" />
       <workItem from="1558519456683" duration="92000" />
       <workItem from="1558569448240" duration="23946000" />
+      <workItem from="1558606680531" duration="218000" />
+      <workItem from="1558656248414" duration="2981000" />
+      <workItem from="1558670330649" duration="16048000" />
     </task>
     <task id="LOCAL-00001" summary="工作空间">
       <created>1557360077043</created>
@@ -550,21 +407,34 @@
       <option name="project" value="LOCAL" />
       <updated>1558519503586</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="加入了通信">
+      <created>1558606719437</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1558606719437</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_Siemens1200_py - 2019.05.24 at 17h 30m 20s.xml">
+      <configuration name="Unittests in Siemens1200.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161243000" />
+    <option name="totallyTimeSpent" value="180490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20442359" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2124665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.28592375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.20821114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -627,40 +497,38 @@
     <SUITE FILE_PATH="coverage/mygit$OpenExcel.coverage" NAME="OpenExcel Coverage Results" MODIFIED="1557473452371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
     <SUITE FILE_PATH="coverage/mygit$mysql005_1.coverage" NAME="mysql005_1 Coverage Results" MODIFIED="1558403579793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$book.coverage" NAME="book Coverage Results" MODIFIED="1558061562496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/ProgramData/Anaconda3/Lib/site-packages/xlrd" />
+    <SUITE FILE_PATH="coverage/mygit$Unittests_in_Siemens1200_py.coverage" NAME="Unittests in Siemens1200.py Coverage Results" MODIFIED="1558690215409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HslCommunication_Python" />
     <SUITE FILE_PATH="coverage/mygit$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1558072106066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$HslCommunication.coverage" NAME="HslCommunication Coverage Results" MODIFIED="1558589121731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HslCommunication_Python" />
     <SUITE FILE_PATH="coverage/mygit$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1557398348194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
-    <SUITE FILE_PATH="coverage/mygit$TCPclient.coverage" NAME="TCPclient Coverage Results" MODIFIED="1558590556760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
+    <SUITE FILE_PATH="coverage/mygit$TCPclient.coverage" NAME="TCPclient Coverage Results" MODIFIED="1558666088609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$Exceltest20.coverage" NAME="Exceltest20 Coverage Results" MODIFIED="1558361408643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
     <SUITE FILE_PATH="coverage/mygit$test.coverage" NAME="test Coverage Results" MODIFIED="1557404070511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mygit$232.coverage" NAME="232 Coverage Results" MODIFIED="1557974141645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$TEST1.coverage" NAME="TEST1 Coverage Results" MODIFIED="1558054239471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
-    <SUITE FILE_PATH="coverage/mygit$TCPserver.coverage" NAME="TCPserver Coverage Results" MODIFIED="1558590544217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
+    <SUITE FILE_PATH="coverage/mygit$TCPserver.coverage" NAME="TCPserver Coverage Results" MODIFIED="1558666082652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$modbustcp__1_.coverage" NAME="modbustcp (1) Coverage Results" MODIFIED="1557723618993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mygit$RunMainWin__2_.coverage" NAME="RunMainWin (2) Coverage Results" MODIFIED="1558403257758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH1" />
     <SUITE FILE_PATH="coverage/mygit$s71200Snap7.coverage" NAME="s71200Snap7 Coverage Results" MODIFIED="1557724877275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$mySimens.coverage" NAME="mySimens Coverage Results" MODIFIED="1558606079947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
+    <SUITE FILE_PATH="coverage/mygit$Process.coverage" NAME="Process Coverage Results" MODIFIED="1558690687011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$QWQ.coverage" NAME="QWQ Coverage Results" MODIFIED="1558054692998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$CreatTbable.coverage" NAME="CreatTbable Coverage Results" MODIFIED="1557473120211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
     <SUITE FILE_PATH="coverage/mygit$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1557400568995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/mygit$test001.coverage" NAME="test001 Coverage Results" MODIFIED="1557467243172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
-    <SUITE FILE_PATH="coverage/mygit$SiemenTest1.coverage" NAME="SiemenTest1 Coverage Results" MODIFIED="1558601305646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
+    <SUITE FILE_PATH="coverage/mygit$SiemenTest1.coverage" NAME="SiemenTest1 Coverage Results" MODIFIED="1558692421696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1557375933890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/mygit$denglu.coverage" NAME="denglu Coverage Results" MODIFIED="1557467851300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/mygit$SiemensS7NetTest__1_.coverage" NAME="SiemensS7NetTest (1) Coverage Results" MODIFIED="1558503743504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HslCommunication_Python" />
     <SUITE FILE_PATH="coverage/mygit$main.coverage" NAME="main Coverage Results" MODIFIED="1558357683145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kk" />
     <SUITE FILE_PATH="coverage/mygit$mysql005.coverage" NAME="mysql005 Coverage Results" MODIFIED="1558406403007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
-    <SUITE FILE_PATH="coverage/mygit$yufa.coverage" NAME="yufa Coverage Results" MODIFIED="1558589600222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mygit$yufa.coverage" NAME="yufa Coverage Results" MODIFIED="1558683805079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mygit$config.coverage" NAME="config Coverage Results" MODIFIED="1557469153975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
     <SUITE FILE_PATH="coverage/mygit$RunMainWin__1_.coverage" NAME="RunMainWin (1) Coverage Results" MODIFIED="1557482257515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH2" />
     <SUITE FILE_PATH="coverage/mygit$mysql002.coverage" NAME="mysql002 Coverage Results" MODIFIED="1558076540576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$testqiehuan.coverage" NAME="testqiehuan Coverage Results" MODIFIED="1557399923533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mainUi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/PyQt5/QtGui/QIntValidator.py" />
     <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/PyQt5/QtWidgets/QLineEdit.py" />
     <entry file="file://F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/controls/QLineEditValidator.py" />
     <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/pymysql/__init__.py" />
@@ -763,15 +631,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/connect1/HslCommunication.py" />
-    <entry file="file://$PROJECT_DIR$/connect1/s71200Snap7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <folding>
-            <element signature="e#30#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/HslCommunication_Python/SiemensS7NetTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-988">
@@ -791,102 +650,21 @@
     <entry file="file://$PROJECT_DIR$/connect1/OpenOPC.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/MelsecMcNetTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-809">
-          <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
-          <folding>
-            <element signature="e#1273#1313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HslCommunication_Python/RedisTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-990" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/.vscode/settings.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/.vscode/launch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/TCPclien.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/TCPserver;.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/TCPserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/TCPclient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yufa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/SiemensS7NetTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding>
-            <element signature="e#1273#1314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/SiemensS7NetTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
-          <caret line="119" column="18" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="119" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#1079#1" />
-            <element signature="e#1273#1314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/.vscode/settings.json" />
+    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/.vscode/launch.json" />
+    <entry file="file://$PROJECT_DIR$/connect1/TCPclien.py" />
+    <entry file="file://$PROJECT_DIR$/connect1/TCPserver;.py" />
     <entry file="file://$PROJECT_DIR$/HslCommunication_Python/SimpleTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#1#14#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/Siemens1200.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1079#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1473">
-          <caret line="807" column="8" selection-start-line="807" selection-start-column="8" selection-end-line="807" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -899,27 +677,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18612">
+          <caret line="853" column="8" selection-start-line="853" selection-start-column="8" selection-end-line="853" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect1/mySimens.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="63" selection-start-line="31" selection-start-column="37" selection-end-line="33" selection-end-column="63" />
+          <folding>
+            <element signature="n#!!doc" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/multithread/Counter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
           <folding>
             <element signature="e#174#184#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/ProgramData/Anaconda3/Lib/threading.py">
+    <entry file="file://$PROJECT_DIR$/connect1/s71200Snap7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="853" column="8" selection-start-line="853" selection-start-column="8" selection-end-line="853" selection-end-column="8" />
+        <state>
+          <folding>
+            <element signature="e#30#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/SiemensS7NetTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1892">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#1273#1314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/Siemens1200.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2706">
+          <caret line="149" column="29" lean-forward="true" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#1079#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yufa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/MelsecMcAsciiNetTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HslCommunication_Python/MelsecMcNetTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="140" column="31" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+          <folding>
+            <element signature="e#1273#1313#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HslCommunication_Python/HslCommunication.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="651" column="24" selection-start-line="651" selection-start-column="6" selection-end-line="651" selection-end-column="24" />
+        <state relative-caret-position="133">
+          <caret line="3989" column="8" selection-start-line="3989" selection-start-column="8" selection-end-line="3989" selection-end-column="8" />
           <folding>
             <element signature="e#0#7662#1" />
             <element signature="e#7663#7676#0" expanded="true" />
@@ -959,6 +798,7 @@
             <element signature="e#70644#70741#0" />
             <element signature="e#70772#71208#0" />
             <element signature="e#77178#83474#0" />
+            <element signature="e#77297#77338#0" />
             <element signature="e#83495#85554#0" />
             <element signature="e#85603#89324#0" />
             <element signature="e#89369#98998#0" />
@@ -984,12 +824,10 @@
             <element signature="e#119960#120499#0" />
             <element signature="e#120543#120832#0" />
             <element signature="e#120878#131088#0" />
-            <element signature="e#131126#131200#0" />
-            <element signature="e#131241#147387#0" />
             <element signature="e#131241#131502#1" />
             <element signature="e#147436#153648#0" />
+            <element signature="e#147549#147666#0" />
             <element signature="e#153692#154302#0" />
-            <element signature="e#154344#163181#0" />
             <element signature="e#163210#165854#0" />
             <element signature="e#165923#167282#0" />
             <element signature="e#165999#166153#0" />
@@ -1005,20 +843,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/SiemenTest1.py">
+    <entry file="file://$PROJECT_DIR$/connect1/TCPserver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="462">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connect1/mySimens.py">
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="63" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="33" selection-end-column="63" />
+        <state relative-caret-position="309">
+          <caret line="496" column="32" lean-forward="true" selection-start-line="496" selection-start-column="32" selection-end-line="496" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect1/SiemensS7NetTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="46" />
           <folding>
-            <element signature="n#!!doc" />
+            <element signature="e#0#1079#1" />
+            <element signature="e#1273#1314#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect1/TCPclient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect1/Process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect1/SiemenTest1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
