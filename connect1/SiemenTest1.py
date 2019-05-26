@@ -22,17 +22,17 @@ class NewProcess(Process,): #继承Process类创建一个新类
     def run(self):  #重写Process类中的run方法.
         while True:
 
-            read = self.siemens.ReadInt16(self.adrss,100)
+            read = self.siemens.ReadInt16(self.adrss,10000)
             AA =self.aa
             print(str(read.Content))
             print(self.aa)
             self.aa=self.aa+1
             #print('我是进程%d,我的pid是:%d'%(self.num,os.getpid()))
-            time.sleep(0.001)
+            time.sleep(1)
 
 if __name__ == '__main__':
     #p = NewProcess(1,"Q","192.168.9.57")
-    p1 = NewProcess(2,"M100","192.168.9.56")
+    p1 = NewProcess(2,"M100","127.0.0.1")
    # p.start()
     p1.start()
 
