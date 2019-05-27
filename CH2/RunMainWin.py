@@ -87,8 +87,15 @@ class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
             pix = QPixmap('0.png')
             self.Lamp.setPixmap(pix)
 
+            # SDFASD
+            self.bntRead =self.ButtonRead
+            self.bntRead.clicked.connect(lambda:self.ReadIO("M100",10))
 
-            self.bnt2Read =self.bu
+            self.bntWrite = self.ButtonWrite
+
+            self.textedit1 = self.textEdit1
+            self.textedit3 = self.textEdit3
+
 
         # 定义一个按钮槽
         def slot_btn_function(self):
@@ -98,13 +105,18 @@ class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
             # self.F.show()
             self.Lamp.setPixmap(pix2)
 
-        def ReadIO(self):
+        def ReadIO(self,adds,length):
+
             siemens = SiemensS7Net(SiemensPLCS.S1200, "127.0.0.1")
             if siemens.ConnectServer().IsSuccess == False:
                 print("connect falied")
             else:
-                # bool read write test
-                siemens.ReadInt16("M100", 2)
+
+                read = siemens.ReadInt16(adds, length)
+                print(str(read.Content))
+                self.textedit1.setText(str(read.Content))
+                return str(read.Content)
+            siemens.ConnectClose()
 
 
 
