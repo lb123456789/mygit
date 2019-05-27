@@ -1,20 +1,37 @@
+
+import sys
+sys.path.append('.\HslCommunication_Python')
+
+from HslCommunication_Python.HslCommunication import SiemensS7Net
+from HslCommunication_Python.HslCommunication import SiemensPLCS
+from HslCommunication_Python.HslCommunication import SoftBasic
 import os
-import time
+import  time
 from multiprocessing import Pool
 from multiprocessing import Process
 
-class NewProcess(Process): #继承Process类创建一个新类
-    def __init__(self,num):
-        self.num = num
-        super().__init__()
+"西门子读写类"
 
-    def run(self):  #重写Process类中的run方法.
-        while True:
-            print('我是进程%d,我的pid是:%d'%(self.num,os.getpid()))
-            time.sleep(0.001)
-if __name__ == '__main__':
+def data1(interval):
+        siemens = SiemensS7Net(SiemensPLCS.S1200,"192.168.9.56")
+        read = siemens.ReadInt16("M100",2)
+        print(str(read.Content))
+        t_start = time.time()
+        time.sleep(interval)  # 程序将会被挂起interval秒
+        t_end = time.time()
+def data2(interval):
+            t_start = time.time()
+            time.sleep(interval)  # 程序将会被挂起interval秒
+            t_end =	time.time()
+            time.sleep(interval)
+            i= 1
+            print(i)
+            i = i+1
+if __name__ == "__main__":
+        p1 = Process(target=data1, args=(0.01,))
+        p2 = Process(target=data2, name="dongGe", args=(0.01,))
+        p1.start()
+        p2.start()
 
-    for i in range(2):
-        p = NewProcess(i)
-        p.start()
-        #p.join()
+
+
