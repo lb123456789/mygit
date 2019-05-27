@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1003</width>
+    <width>891</width>
     <height>783</height>
    </rect>
   </property>
@@ -14,10 +14,10 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="lampLabel">
+   <widget class="QLabel" name="lampLabel1">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>420</x>
       <y>250</y>
       <width>91</width>
       <height>91</height>
@@ -27,11 +27,11 @@
      <string>TextLabel</string>
     </property>
    </widget>
-   <widget class="QLabel" name="lampLabel_2">
+   <widget class="QLabel" name="lampLabel2">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>460</y>
+      <x>540</x>
+      <y>250</y>
       <width>91</width>
       <height>91</height>
      </rect>
@@ -79,6 +79,62 @@
      <string>灯关</string>
     </property>
    </widget>
+   <widget class="QTextEdit" name="textEdit1">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>420</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit12">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>420</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>420</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonRead">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>350</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Read</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonWrite">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>350</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Write</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menuBar">
@@ -86,8 +142,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1003</width>
-     <height>26</height>
+     <width>891</width>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
