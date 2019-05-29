@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>891</width>
-    <height>783</height>
+    <width>1383</width>
+    <height>872</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QLabel" name="lampLabel1">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>250</y>
-      <width>91</width>
-      <height>91</height>
+      <x>320</x>
+      <y>10</y>
+      <width>81</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="text">
@@ -30,10 +30,10 @@
    <widget class="QLabel" name="lampLabel2">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>250</y>
-      <width>91</width>
-      <height>91</height>
+      <x>420</x>
+      <y>30</y>
+      <width>81</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -43,8 +43,8 @@
    <widget class="QPushButton" name="buttonOpenwindow">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>180</y>
+      <x>110</x>
+      <y>10</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -56,8 +56,8 @@
    <widget class="QPushButton" name="lampCloesButton">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>240</y>
+      <x>50</x>
+      <y>70</y>
       <width>93</width>
       <height>28</height>
      </rect>
@@ -69,11 +69,14 @@
    <widget class="QPushButton" name="lampOpenButton">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>240</y>
+      <x>180</x>
+      <y>70</y>
       <width>93</width>
       <height>28</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
     </property>
     <property name="text">
      <string>灯关</string>
@@ -82,8 +85,8 @@
    <widget class="QTextEdit" name="textEdit1">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>420</y>
+      <x>10</x>
+      <y>190</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -92,8 +95,8 @@
    <widget class="QTextEdit" name="textEdit12">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>420</y>
+      <x>140</x>
+      <y>190</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -102,8 +105,8 @@
    <widget class="QTextEdit" name="textEdit3">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>420</y>
+      <x>270</x>
+      <y>190</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -112,8 +115,8 @@
    <widget class="QPushButton" name="ButtonRead">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>350</y>
+      <x>10</x>
+      <y>150</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -125,14 +128,54 @@
    <widget class="QPushButton" name="ButtonWrite">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>350</y>
+      <x>100</x>
+      <y>150</y>
       <width>75</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
      <string>Write</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>250</y>
+      <width>1221</width>
+      <height>551</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit3">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>190</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>190</y>
+      <width>113</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit1">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>140</y>
+      <width>113</width>
+      <height>31</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -142,8 +185,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>891</width>
-     <height>23</height>
+     <width>1383</width>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">

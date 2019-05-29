@@ -33,19 +33,27 @@ QLabel常用的信号（事件）：
 
 
 import sys
-from PyQt5.QtWidgets import  QPushButton,QVBoxLayout,QWidget,QApplication,QMainWindow,QTableWidgetItem,QTableWidget
-from PyQt5.QtGui import QIcon,QPixmap
-from PyQt5.QtCore import *
+from PyQt5.QtWidgets import*
 
-from PyQt5.QtWidgets import QWidget, QPushButton, QApplication, QLabel
+from PyQt5.QtGui import*
+import pandas as pd
+import pymysql
+
+
 from PyQt5.QtGui import QPalette, QBrush, QPixmap
 sys.path.append('.\HslCommunication_Python')
 
 from HslCommunication_Python.HslCommunication import SiemensS7Net
 from HslCommunication_Python.HslCommunication import SiemensPLCS
 from HslCommunication_Python.HslCommunication import SoftBasic
+
 from CH2 import mainUi
 from CH2 import mainUione
+
+from PyQt5.QtSql import  QSqlTableModel
+from PyQt5.QtWidgets import QTableView, QApplication
+import sys
+
 
 
 # 界面软件逻辑处理 MainCode类又提供了一个容器，这个类继承自QMainWindow,mainUi.Ui_MainWindow，
@@ -70,7 +78,6 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow,):
             self.Window2 = MainCode1()
             self.Window2.show()
 
- #第二个窗口
 class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
 
         def __init__(self):
@@ -80,21 +87,34 @@ class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
             self.setWindowTitle("第二个窗口")
             # def一个按钮
             self.bnt2 = self.buttonOpenwindow
-            self.bnt2.clicked.connect(self.slot_btn_function)
+            self.bnt2.clicked.connect(self.aa)
 
             # 定义一个指示灯
             self.Lamp = self.lampLabel1
             pix = QPixmap('0.png')
             self.Lamp.setPixmap(pix)
 
-            # SDFASD
+            # 定义一个按钮读取PLC数据在界面显示
             self.bntRead =self.ButtonRead
-            self.bntRead.clicked.connect(lambda:self.ReadIO("M100",10))
+            self.bntRead.clicked.connect(lambda:self.ReadIO("M500",1))
+
+            # 整型校验器
+            intValidator = QIntValidator(self)
+
+            self.line1 = self.lineEdit1
+            self.line2 = self.lineEdit2
+            self.line3 = self.lineEdit3
+
+            # 设定line2为整型数据
+            self.line2.setValidator(intValidator)
 
             self.bntWrite = self.ButtonWrite
+            self.bntWrite.clicked.connect(lambda: self.WriteIO("M500",self.line2.text()))
 
-            self.textedit1 = self.textEdit1
-            self.textedit3 = self.textEdit3
+
+            self.table = self.tableView
+
+
 
 
         # 定义一个按钮槽
@@ -104,21 +124,50 @@ class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
             # self.F = MainCode()
             # self.F.show()
             self.Lamp.setPixmap(pix2)
-
-        def ReadIO(self,adds,length):
-
-            siemens = SiemensS7Net(SiemensPLCS.S1200, "127.0.0.1")
+        # 读取PLC数据在界面显示
+        def ReadIO(self, adds, length):
+            siemens = SiemensS7Net(SiemensPLCS.S1200, "192.168.9.56")
             if siemens.ConnectServer().IsSuccess == False:
                 print("connect falied")
             else:
 
                 read = siemens.ReadInt16(adds, length)
                 print(str(read.Content))
-                self.textedit1.setText(str(read.Content))
+                self.line1.setText(str(read.Content))
                 return str(read.Content)
             siemens.ConnectClose()
+        def WriteIO(self, adds, value):
+            siemens = SiemensS7Net(SiemensPLCS.S1200, "192.168.9.56")
+            if siemens.ConnectServer().IsSuccess == False:
+                print("connect falied")
+            else:
+               siemens.WriteInt16(adds,int(value))
+               siemens.ConnectClose()
 
 
+        def aa(self):
+
+            conn = pymysql.connect(host="localhost", port=3306, user="root", passwd="root", db="mysqltest",
+                                    charset='utf8')
+            cur = conn.cursor()
+            hh="select * from"
+            YY=" name1"
+            cur.execute(hh+YY)
+            rows = cur.fetchall()
+            row = cur.rowcount  # 取得记录个数，用于设置表格的行数
+            vol = len(rows[0])  # 取得字段数，用于设置表格的列数
+            cur.close()
+            conn.close()
+            self.model = QStandardItemModel(row,vol)
+            self.model.setHorizontalHeaderLabels(['序号', 'ERP代码', '名称',"规格型号","物料属性","计量单位"])
+            # 关联QTableView控件和Model
+            self.table.setModel(self.model)
+
+            for i in range(row):
+                for j in range(vol):
+                    temp_data = rows[i][j]  # 临时记录，不能直接插入表格
+                    data = QStandardItem(str(temp_data))  # 转换后可插入表格
+                    self.model.setItem(i, j, data)
 
 
 if __name__ == "__main__":

@@ -39,9 +39,15 @@ from PyQt5.QtCore import *
 
 from PyQt5.QtWidgets import QWidget, QPushButton, QApplication, QLabel
 from PyQt5.QtGui import QPalette, QBrush, QPixmap
+sys.path.append('.\HslCommunication_Python')
 
-import mainUi
-import mainUione
+from HslCommunication_Python.HslCommunication import SiemensS7Net
+from HslCommunication_Python.HslCommunication import SiemensPLCS
+from HslCommunication_Python.HslCommunication import SoftBasic
+
+from CH2 import mainUi
+from CH2 import mainUione
+
 
 # 界面软件逻辑处理 MainCode类又提供了一个容器，这个类继承自QMainWindow,mainUi.Ui_MainWindow，
 # 在这个类的构造函数中运行类父类的构造函数， 并且把它自己作为参数产地给setupUi，
@@ -78,9 +84,19 @@ class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
             self.bnt2.clicked.connect(self.slot_btn_function)
 
             # 定义一个指示灯
-            self.Lamp = self.lampLabel
+            self.Lamp = self.lampLabel1
             pix = QPixmap('0.png')
             self.Lamp.setPixmap(pix)
+
+            # SDFASD
+            self.bntRead =self.ButtonRead
+            self.bntRead.clicked.connect(lambda:self.ReadIO("DB6.1",10000))
+
+            self.bntWrite = self.ButtonWrite
+
+            self.textedit1 = self.textEdit1
+            self.textedit3 = self.textEdit3
+
 
         # 定义一个按钮槽
         def slot_btn_function(self):
@@ -89,6 +105,20 @@ class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
             # self.F = MainCode()
             # self.F.show()
             self.Lamp.setPixmap(pix2)
+
+        def ReadIO(self,adds,length):
+
+            siemens = SiemensS7Net(SiemensPLCS.S1200, "192.168.9.56")
+            if siemens.ConnectServer().IsSuccess == False:
+                print("connect falied")
+            else:
+
+                read = siemens.Read(adds, length)
+                print(str(read.Content))
+                self.textedit1.setText(str(read.Content))
+                return str(read.Content)
+            siemens.ConnectClose()
+
 
 
 

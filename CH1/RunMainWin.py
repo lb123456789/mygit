@@ -139,6 +139,8 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow):
         print("点击的按钮是：", self.lab2.text())
 
 
+
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     mainWindow = MainCode()
