@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edceb44d-fd9d-4da9-958a-09b8a377d5d9" name="Default Changelist" comment="">
+    <list default="true" id="edceb44d-fd9d-4da9-958a-09b8a377d5d9" name="Default Changelist" comment="201902289数据库表单浏览">
+      <change afterPath="$PROJECT_DIR$/CH2/MyDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CH2/db/database.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CH1/RunMainWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CH1/RunMainWin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CH2/RunMainWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CH2/RunMainWin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CH2/RunMainWin_Debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/CH2/RunMainWin_Debug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CH2/mainUione.py" beforeDir="false" afterPath="$PROJECT_DIR$/CH2/mainUione.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CH2/mainUione.ui" beforeDir="false" afterPath="$PROJECT_DIR$/CH2/mainUione.ui" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,21 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CH2/RunMainWin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="155" column="33" lean-forward="true" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
-              <folding>
-                <element signature="e#521#531#0" expanded="true" />
-                <element signature="e#1312#1858#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,12 +109,7 @@
             <path>
               <item name="mygit" type="b2602c69:ProjectViewProjectNode" />
               <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="CH2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mygit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mygit" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql001" type="462c0819:PsiDirectoryNode" />
+              <item name="CH1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,8 +146,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.RunMainWin">
-    <configuration name="Exceltest20" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MyDB">
+    <configuration name="DataGrid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,12 +155,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excel" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/ext" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excel/Exceltest20.py" />
+      <option name="SCRIPT_NAME" value="F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/ext/DataGrid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RunMainWin (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DataGrid1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,12 +177,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CH1" />
+      <option name="WORKING_DIRECTORY" value="F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/ext" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/ext/DataGrid1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MyDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CH2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CH1/RunMainWin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CH2/MyDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,35 +257,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mysql005" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysql001" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysql001/mysql005.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MyDB" />
+        <item itemvalue="Python.DataGrid1" />
+        <item itemvalue="Python.DataGrid" />
         <item itemvalue="Python.RunMainWin" />
         <item itemvalue="Python.TableView" />
-        <item itemvalue="Python.mysql005" />
-        <item itemvalue="Python.RunMainWin (1)" />
-        <item itemvalue="Python.Exceltest20" />
       </list>
     </recent_temporary>
   </component>
@@ -328,6 +307,8 @@
       <workItem from="1558958840759" duration="7828000" />
       <workItem from="1559002276877" duration="11859000" />
       <workItem from="1559089097888" duration="26624000" />
+      <workItem from="1559123182948" duration="146000" />
+      <workItem from="1559176001435" duration="4088000" />
     </task>
     <task id="LOCAL-00001" summary="工作空间">
       <created>1557360077043</created>
@@ -455,21 +436,28 @@
       <option name="project" value="LOCAL" />
       <updated>1559038000142</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="201902289数据库表单浏览">
+      <created>1559123285127</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559123285127</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213865000" />
+    <option name="totallyTimeSpent" value="218099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49924126" visible="true" weight="0.21849866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49924126" visible="true" weight="0.22386059" />
       <window_info id="Structure" order="1" sideWeight="0.5007587" side_tool="true" weight="0.21268657" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.3797654" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.3797654" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,13 +487,15 @@
     <MESSAGE value="多进程读取西门子数据" />
     <MESSAGE value="加入了通信" />
     <MESSAGE value="20190228" />
-    <option name="LAST_COMMIT_MESSAGE" value="20190228" />
+    <MESSAGE value="201902289数据库表单浏览" />
+    <option name="LAST_COMMIT_MESSAGE" value="201902289数据库表单浏览" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mygit$SiemensS7NetTest.coverage" NAME="SiemensS7NetTest Coverage Results" MODIFIED="1558490209457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$modbustcp.coverage" NAME="modbustcp Coverage Results" MODIFIED="1558501214537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$QObject.coverage" NAME="QObject Coverage Results" MODIFIED="1557404574672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.1/system/python_stubs/1412029153/PyQt5/QtCore" />
-    <SUITE FILE_PATH="coverage/mygit$RunMainWin.coverage" NAME="RunMainWin Coverage Results" MODIFIED="1559121443496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH2" />
+    <SUITE FILE_PATH="coverage/mygit$RunMainWin.coverage" NAME="RunMainWin Coverage Results" MODIFIED="1559193502630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH2" />
+    <SUITE FILE_PATH="coverage/mygit$MyDB.coverage" NAME="MyDB Coverage Results" MODIFIED="1559196097363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH2" />
     <SUITE FILE_PATH="coverage/mygit$mysql_test.coverage" NAME="mysql_test Coverage Results" MODIFIED="1558356784581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$OpenExcel.coverage" NAME="OpenExcel Coverage Results" MODIFIED="1557473452371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
     <SUITE FILE_PATH="coverage/mygit$mysql005_1.coverage" NAME="mysql005_1 Coverage Results" MODIFIED="1558403579793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
@@ -515,12 +505,14 @@
     <SUITE FILE_PATH="coverage/mygit$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1557398348194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
     <SUITE FILE_PATH="coverage/mygit$TCPclient.coverage" NAME="TCPclient Coverage Results" MODIFIED="1558590556760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$Exceltest20.coverage" NAME="Exceltest20 Coverage Results" MODIFIED="1559098064660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel" />
+    <SUITE FILE_PATH="coverage/mygit$DataGrid1.coverage" NAME="DataGrid1 Coverage Results" MODIFIED="1559196016338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/ext" />
     <SUITE FILE_PATH="coverage/mygit$test.coverage" NAME="test Coverage Results" MODIFIED="1557404070511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mygit$232.coverage" NAME="232 Coverage Results" MODIFIED="1557974141645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$TEST1.coverage" NAME="TEST1 Coverage Results" MODIFIED="1558054239471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql001" />
     <SUITE FILE_PATH="coverage/mygit$TCPserver.coverage" NAME="TCPserver Coverage Results" MODIFIED="1558875765499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$modbustcp__1_.coverage" NAME="modbustcp (1) Coverage Results" MODIFIED="1557723618993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mygit$RunMainWin__2_.coverage" NAME="RunMainWin (2) Coverage Results" MODIFIED="1558403257758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CH1" />
+    <SUITE FILE_PATH="coverage/mygit$DataGrid.coverage" NAME="DataGrid Coverage Results" MODIFIED="1559195825289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/ext" />
     <SUITE FILE_PATH="coverage/mygit$s71200Snap7.coverage" NAME="s71200Snap7 Coverage Results" MODIFIED="1557724877275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$mySimens.coverage" NAME="mySimens Coverage Results" MODIFIED="1558606079947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
     <SUITE FILE_PATH="coverage/mygit$Process.coverage" NAME="Process Coverage Results" MODIFIED="1558959788539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connect1" />
@@ -543,20 +535,6 @@
     <SUITE FILE_PATH="coverage/mygit$testqiehuan.coverage" NAME="testqiehuan Coverage Results" MODIFIED="1557399923533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RunMainWin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="37" column="42" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="17" />
-          <folding>
-            <element signature="e#270#280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pymysql/cursors.py" />
-    <entry file="file://$PROJECT_DIR$/Excel/test001.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pymysql/err.py" />
     <entry file="file://$PROJECT_DIR$/connect1/HslCommunication.py" />
     <entry file="file://$USER_HOME$/Desktop/HslCommunication_Python/SiemensS7NetTest.py" />
@@ -770,16 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CH1/RunMainWin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
-          <folding>
-            <element signature="e#523#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HslCommunication_Python/HslCommunication.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
@@ -927,16 +895,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql001/xianshi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql001/xianshi.py" />
     <entry file="file://$PROJECT_DIR$/mysql001/mysql005.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1062">
@@ -947,13 +906,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CH1/RunMainWin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="55" column="8" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="e#523#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/ext/DataGrid1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/LB/02-软件/python3.7.4/PyQt5开发与实战全套视频及源码/对应源码/pyqt5-master/pyqt5-master/src/ext/DataGrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="53" column="62" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CH2/MyDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CH2/RunMainWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="155" column="33" lean-forward="true" selection-start-line="155" selection-start-column="33" selection-end-line="155" selection-end-column="33" />
+        <state relative-caret-position="181">
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
           <folding>
-            <element signature="e#521#531#0" expanded="true" />
-            <element signature="e#1312#1858#0" />
+            <element signature="e#1072#1140#0" />
           </folding>
         </state>
       </provider>

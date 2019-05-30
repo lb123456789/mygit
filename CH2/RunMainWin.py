@@ -36,13 +36,11 @@ import sys
 from PyQt5.QtWidgets import*
 
 from PyQt5.QtGui import*
-import pandas as pd
 import pymysql
 
 
 from PyQt5.QtGui import QPalette, QBrush, QPixmap
 sys.path.append('.\HslCommunication_Python')
-
 from HslCommunication_Python.HslCommunication import SiemensS7Net
 from HslCommunication_Python.HslCommunication import SiemensPLCS
 from HslCommunication_Python.HslCommunication import SoftBasic
@@ -61,11 +59,9 @@ import sys
 class MainCode(QMainWindow,mainUi.Ui_MainWindow,):
     # 本类的初始化方法
         def __init__(self):
-            QMainWindow.__init__(self)
-            mainUi.Ui_MainWindow.__init__(self)
+            super().__init__()
             self.setupUi(self)
             self.setWindowTitle("用户登录")
-
             # 设置按钮btn1状态
             self.btn1 = self.pushButton1
             self.btn1.clicked.connect(self.slot_btn_function1)
@@ -81,8 +77,7 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow,):
 class MainCode1(QMainWindow,mainUione.Ui_MainWindow):
 
         def __init__(self):
-            QMainWindow.__init__(self)
-            mainUione.Ui_MainWindow.__init__(self)
+            super().__init__()
             self.setupUi(self)
             self.setWindowTitle("第二个窗口")
             # def一个按钮
