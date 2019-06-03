@@ -45,13 +45,13 @@ from HslCommunication_Python.HslCommunication import SiemensS7Net
 from HslCommunication_Python.HslCommunication import SiemensPLCS
 from HslCommunication_Python.HslCommunication import SoftBasic
 
+
 from CH2 import mainUi
 from CH2 import mainUione
 
 from PyQt5.QtSql import  QSqlTableModel
 from PyQt5.QtWidgets import QTableView, QApplication
 import sys
-
 
 
 # 界面软件逻辑处理 MainCode类又提供了一个容器，这个类继承自QMainWindow,mainUi.Ui_MainWindow，
@@ -70,7 +70,8 @@ class MainCode(QMainWindow,mainUi.Ui_MainWindow,):
             self.Password = self.PWDEdit2
 
         def slot_btn_function1(self):
-            self.hide()
+            #self.hide()
+            self.close()
             self.Window2 = MainCode1()
             self.Window2.show()
 
