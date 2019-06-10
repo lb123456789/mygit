@@ -1,3 +1,4 @@
+#coding=utf-8
 """
 pymysql.Connect()参数说明
 host(str):      MySQL服务器地址
@@ -22,66 +23,87 @@ rowcount()      返回数据条数或影响行数
 close()         关闭游标对象
 """
 import pymysql
-class MySQLBuilder :
 
-    def MySQL_connect(self):  # 创建数据库连接
-        connect = pymysql.Connect(
-            host='localhost',
-            port=3306,
-            user='root',
-            passwd='root',
-            db='mysqltest',
-            charset='utf8'
 
-        )
 
-        # 获取游标
-        self.cursor = connect.cursor()
+class MysqlOperation:
+    def __init__(self, host='localhost', port=3306, db='mysqltest', user='root', passwd='root', charset='utf8'):
+        self.conn = pymysql.connect(host=host, port=port, db=db, user=user, passwd=passwd, charset=charset)
+    print("OK")
+    # 插入一条数据
+    def insert(self, sql, params):
+        return self.__cud(sql,params)
 
-    def MySQL_createTable(self):  # 创建表单
-        self.cursor.execute('DROP TABLE IF EXISTS name1')
-        sql = """CREATE TABLE name1(
-                        序号 CHAR(254),
-                        ERP代码 CHAR(254) NOT NULL,
-                        名称 CHAR(254),
-                        规格型号 CHAR(255),
-                        物料属性 CHAR(255),
-                        计量单位 CHAR(255)
-                        )"""
-        self.cursor.execute(sql)
+    # 修改一条数据
+    def update(self, sql, params):
+        return self.__cud(sql, params)
 
-    def MySQL_inserInto(self, name1, param, nrows):  # 插入数据
+    # 删除一条数据
+    def delete(self, sql, params):
+        return self.__cud(sql, params)
 
+    def __cud(self, sql, params=[]):
         try:
-            sql = 'INSERT INTO name1 values(%s,%s,%s,%s,%s,%s)'
-            # 批量插入
-            self.cursor.executemany(sql, param)
-            self.cursor.commit()
-            # 定义一个异常实例e
+            cs1 = self.conn.cursor()
+            rows = cs1.execute(sql % params)
+            self.conn.commit()
+            return rows
         except Exception as e:
-            print
-            e
-            self.cursor.rollback()
-        print
-        '[insert_by_many executemany] total:', nrows - 1
+            print(e)
+            self.conn.rollback()
+        cs1.close()
+        self.conn.close()
 
-    def MySQL_upDate(self, data):  # 修改数据
-        sql = "UPDATE trade SET saving = %.2f WHERE account = '%s' "
-        self.cursor.execute(sql % data)
-        self.connect.commit()
-        print('成功修改', self.cursor.rowcount, '条数据')
+    def fetchone(self, sql, params=[]):
+        try:
+            cs1 = self.conn.cursor()
+            cs1.execute(sql % params)
+            row = cs1.fetchone()
+            return row
+        except Exception as e:
+            print(e)
+        cs1.close()
+        self.conn.close()
 
-    def MySQL_select(self, data):  # 查询数据
-        sql = "SELECT name,saving FROM trade WHERE account = '%s' "
-        self.cursor.execute(sql % data)
-        for row in self.cursor.fetchall():
-            print("Name:%s\tSaving:%.2f" % row)
-        print('共查找出', self.cursor.rowcount, '条数据')
-    def MySQL_delete(self,data):  # 删除数据
-        # 删除数据
-        sql = "DELETE FROM trade WHERE account = '%s' LIMIT %d"
-        self.cursor.execute(sql % data)
-        self.connect.commit()
-        print('成功删除', self.cursor.rowcount, '条数据')
-        pass
+    def fetchall(self, sql, params):
+        try:
+            cs1 = self.conn.cursor()
+            cs1.execute(sql % params)
+            rows = cs1.fetchall()
+            return rows
+        except Exception as e:
+            print(e)
+        cs1.close()
+        self.conn.close()
+if __name__ == "__main__":
+    A = MysqlOperation()
 
+    # 插入一条数据
+    AA = '雷军'
+    BB = '13512348866'
+    CC = 588
+    DD = 555
+    EE = 555
+    sql1 = "INSERT INTO trade (name, account, saving,expend,income) VALUES ( '%s', '%s', %.2f ,%.2f ,%.2f )"
+    data1 =(AA, BB, CC ,DD, EE)
+
+
+    # 将caaount=13512345645一行字段为saving修改为8000
+    sql = "UPDATE trade SET saving = %.2f WHERE account = '%s' "
+    data = (8000, '13512345645')
+
+
+    # 删除account=13512345645,其中10条数据
+    sql = "DELETE FROM trade WHERE account = '%s' LIMIT %d"
+    data = ('13512345645', 10)
+    A.update(sql, data)
+
+
+    sql = "SELECT name,saving FROM trade WHERE account = '%s' "
+    data = ('13512348866',)
+
+    dd =A.fetchone(sql, data)
+    print(dd)
+
+    ff = A.fetchall(sql, data)
+    print(ff)

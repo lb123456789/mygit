@@ -39,7 +39,7 @@ cursor = connect.cursor()
 
 # 插入数据
 sql = "INSERT INTO trade (name, account, saving,expend,income) VALUES ( '%s', '%s', %.2f ,%.2f ,%.2f )"
-data = ('雷军', '18012345678', 10000,6000,8000)
+data = ('雷军', '13512345645', 10000,6000,4000)
 cursor.execute(sql % data)
 connect.commit()
 print('成功插入', cursor.rowcount, '条数据')
@@ -69,9 +69,9 @@ print('成功删除', cursor.rowcount, '条数据')
 
 
 # 事务处理
-sql_1 = "UPDATE trade SET saving = saving + 1000 WHERE account = '18012345678' "
-sql_2 = "UPDATE trade SET expend = expend + 1000 WHERE account = '18012345678' "
-sql_3 = "UPDATE trade SET income = income + 2000 WHERE account = '18012345678' "
+sql_1 = "UPDATE trade SET saving = saving + 1000 WHERE account = '13512345678' "
+sql_2 = "UPDATE trade SET expend = expend + 1000 WHERE account = '13512345678' "
+sql_3 = "UPDATE trade SET income = income + 2000 WHERE account = '13512345678' "
 
 try:
     (sql_1)  # 储蓄增加1000
